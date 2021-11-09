@@ -25,8 +25,9 @@ namespace projetoFaculdade.DAL
                 con.Open();
             }
 
-            return con;
+            return con;            
         }
+        
 
         public void Desconectar()
         {
